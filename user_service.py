@@ -1,4 +1,5 @@
 import json
+import sys
 
 def register_user(username, password):
     with open("data/users.json") as f:
